@@ -98,6 +98,7 @@ contract TokenVestingTest is Test {
     function testTokenTransferFailure() public {
         TokenVesting vestingInsufficient =
             new TokenVesting(address(token), beneficiary, startTime, duration, totalAmount);
+        token.safeTransfer(address(vestingInsufficient), totalAmount);
 
         vm.warp(startTime + 15 days);
         vm.prank(beneficiary);

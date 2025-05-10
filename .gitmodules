@@ -10,3 +10,6 @@
 [submodule "problems/hard/Multisig/lib/forge-std"]
 	path = problems/hard/Multisig/lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
+[submodule "problems/intermediate/TokenVesting/lib/openzeppelin-contracts"]
+	path = problems/intermediate/TokenVesting/lib/openzeppelin-contracts
+	url = https://github.com/OpenZeppelin/openzeppelin-contracts
