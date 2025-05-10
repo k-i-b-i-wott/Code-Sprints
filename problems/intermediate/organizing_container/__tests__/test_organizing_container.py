@@ -3,7 +3,7 @@ import os
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from organizing_containers import organizingContainers
+from organizing_container import organizingContainers
 
 def test_organizing_containers():
     containers = [[1, 4], [2, 3]]
